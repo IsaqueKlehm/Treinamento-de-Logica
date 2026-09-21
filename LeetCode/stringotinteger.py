@@ -1,6 +1,5 @@
-numero = input("Digite a sua senha: ")
+numero = input("Digite a sua senha: ").split()
 lista = []
-print()
 for i in numero:
     # Verifica se é negativo
     if i == "-":
